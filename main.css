@@ -1,0 +1,97 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  height: 100%;
+}
+:root {
+  --radius: 2px;
+  --baseFg: dimgray;
+  --baseBg: white;
+  --accentFg: #006fc2;
+  --accentBg: #bae1ff;
+}
+
+.theme-pink {
+  --radius: 2em;
+  --baseFg: #c70062;
+  --baseBg: #ffe3f1;
+  --accentFg: #c70062;
+  --accentBg: #ffaad4;
+}
+
+.theme-construction {
+  --radius: 0;
+  --baseFg: white;
+  --baseBg: black;
+  --accentFg: black;
+  --accentBg: orange;
+}
+
+/* .loading-page {
+} */
+
+.content {
+  background-color: #a3cff6;
+  background-image: url("https://s3.eu-west-2.amazonaws.com/lincocare/Dimples/Dimples-background-language.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 0;
+  bottom: 0;
+  margin-left: -10px;
+  margin-right: 10px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  padding: 0;
+}
+.logo {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 30vh;
+}
+
+.box {
+  display: block;
+  width: 300px;
+  border-radius: 15%;
+  opacity: 0.6;
+  margin: 0 auto 0 auto;
+}
+.select-label {
+  margin-bottom: 1rem !important;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.select-lang {
+  font-size: 1.3rem;
+  font: 400 sans-serif;
+  width: 100%;
+  background: transparent;
+  color: #08255b;
+  border: none;
+  border-bottom: #08255b solid 1px;
+  padding: 10px 10px;
+  border-radius: 3px;
+  /* background-image: linear-gradient(var(--baseFg), var(--baseFg)),
+    linear-gradient(-135deg, transparent 50%, var(--accentBg) 50%),
+    linear-gradient(-225deg, transparent 50%, var(--accentBg) 50%),
+    linear-gradient(var(--accentBg) 42%, var(--accentFg) 42%);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 1px 100%, 20px 22px, 20px 22px, 20px 100%;
+  background-position: right 20px center, right bottom, right bottom,
+    right bottom;
+}
+.select-lang:hover {
+  background-color: #213c70; */
+}
+
+.copyright {
+  margin-top: 5rem;
+  color: #08255b;
+  text-align: center;
+}

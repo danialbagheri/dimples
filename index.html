@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Dimples Depilatory EST. 1979 | United Kingdom</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script type="text/javascript" src="main.js"></script>
+    <!-- CSS only -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body onload="getThisYearDate()">
+    <div class="loading-page">
+      <div class="content">
+        <img
+          src="https://s3.eu-west-2.amazonaws.com/lincocare/Dimples/Dimples-logo.png"
+          class="logo"
+        />
+        <div class="box">
+          <p class="select-label">Please select your language</p>
+
+          <select class="select-lang" onchange="redirect(value)">
+            <option disabled selected>-- Please choose an option --</option>
+            <option value="en">
+              <icon class="flag-icon flag-icon-gb flag-icon-squared"></icon>
+              United Kingdom
+            </option>
+
+            <option value="es">Spain | España</option>
+            <option value="it">Italy | Italia</option>
+            <option value="es" disabled>China | 中国</option>
+            <option value="th">Thailand | ประเทศไทย</option>
+            <option value="my">Malysia</option>
+          </select>
+          <p class="copyright">
+            ©<span id="year"></span>
+            <a href="https://lincocare.com" target="_blank"> Linco Care Ltd </a>
+            | All rights reserved
+          </p>
+          <!-- <ul>
+            <li><a href="https://dimplesdepilatory.com/">United Kingdom</a></li>
+            <li>
+              <a href="https://es.dimplesdepilatory.com/">Spain | España</a>
+            </li>
+            <li>
+              <a href="https://it.dimplesdepilatory.com/">Italy | Italia</a>
+            </li>
+            <li><a href="">China | 中国</a></li>
+            <li>
+              <a href="https://th.dimplesdepilatory.com/">
+                Thailand | ประเทศไทย
+              </a>
+            </li>
+            <li><a href="https://my.dimplesdepilatory.com/">Malysia</a></li>
+          </ul> -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
